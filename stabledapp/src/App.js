@@ -30,7 +30,7 @@ class App extends Component {
                     const elem = document.getElementById("searchQuery");
                     elem.value = "";
                     elem.focus();
-                }, 500);
+                }, 6000);
             })
             .catch((error) => {
                 console.log(error);
