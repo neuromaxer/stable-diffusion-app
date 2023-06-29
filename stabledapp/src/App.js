@@ -12,7 +12,7 @@ class App extends Component {
         document.querySelector("#overlay").style.display = "block";
         const api =
             process.env.NODE_ENV === "development"
-                ? "/test/stabled"
+                ? "/test/stable-diffusion"
                 : "https://jma6xedjq9.execute-api.eu-central-1.amazonaws.com/test/stable-diffusion";
         const data = { data: prompt };
         axios({
