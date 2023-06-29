@@ -52,7 +52,7 @@ class App extends Component {
                         type="text"
                         name="searchQuery"
                         id="searchQuery"
-                        placeholder="enter desired text"
+                        placeholder="enter desired text here"
                         required
                     />
                     <div>
